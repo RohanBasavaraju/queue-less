@@ -1,6 +1,6 @@
-# q_less
+# Wless
 
-Queue-less is a mobile app bringing you the shortest wait times for local restaurants, supermarkets, food banks, and more.
+QLess is a mobile app bringing you the shortest wait times for local restaurants, supermarkets, food banks, and more.
 
 ## Getting Started
 
