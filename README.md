@@ -1,15 +1,10 @@
-# QLess
-QLess is a mobile application bringing you the shortest wait times for local restaurants, supermarkets, food banks, and more.
-
-This project will be submitted for Cal Hacks 2020 to serve as a platform helping those afflicted by the COVID-19 pandemic.
-
 # Inspiration
 
 Our team was inspired to build QLess in light of the devastating conditions imposed by the global COVID-19 pandemic. While nearly every aspect of our lives has been afflicted, there is one constant that plagues our health and our happiness: food. Access to a steady food source, whether it be from restaurants, supermarkets, or food banks, has been taken for granted in modern society. As the coronavirus extends its reach around the world, food providers have been faced with the challenge of balancing food inventory and recurring revenue with the social distancing of both customers and workers. As individuals with first-hand experience of these problems, we knew there had to be a better way of meeting our dietary and (anti-)social needs. Enter: QLess.
 
-# What it does
+# QLess
 
-QLess is a mobile application that provides members of a community with real-time analytics on wait times at local food markets. QLess scales to a diverse userbase by customizing its insights for individuals regardless of their social and economic backgrounds. This provides users with up-to-date info on the queue length of local food suppliers from high-end eateries to government-funded food stamps. The quantity and quality of partnerships with nearby food facilities will also be expanded upon through partnerships with relevant organizations (see "What's next for QLess" below). Our current offerings include locating local food suppliers and sorting search results by distance and queue waiting time.
+QLess is a mobile application bringing you the shortest wait times for local restaurants, supermarkets, food banks, and more. QLess provides members of a community with real-time analytics on wait times at local food markets. QLess scales its platform to a diverse userbase by customizing its insights for individuals regardless of their social and economic backgrounds. This provides users with up-to-date info on the queue length of local food suppliers from high-end eateries to government-funded food stamps. The quantity and quality of partnerships with nearby food facilities will also be expanded upon through partnerships with relevant organizations (see "What's next for QLess" below). Our current offerings include locating local food suppliers and sorting search results by distance and queue waiting time.
 
 # How I built it
 
@@ -23,9 +18,8 @@ Throughout the course of our project, we brainstormed over 10 unique ideas and, 
 
 Front-end: We scoured the web and ran dozens of trials across a diversity of platforms until ultimately deciding to use Flutter for our project demo. Flutter was the clear choice as it enabled us to develop QLess's user interface with agility and elegance without compromising the back-end functionality. As novice hackers using Flutter, we taught ourselves how to develop software applications using the Dart programming language. This furthered our knowledge of object-oriented design principles along with our knowledge of developing with the Android environment.
 
-Back-end: To connect users with real-time insights, we required a scalable and efficient database system. After dissecting multiple database structures, we enter a grueling trial and error process until finally achieving success with a one-to-many object mapping relation (OMR) between food suppliers and store traffic throughout the day. Additionally, this was our first time using the Google Maps Platform and its Geolocation API, which required a deep understanding of the relationships between localization APIs and other toolkits and how they would impact the scalability of our code. 
-  
-  
+Back-end: To connect users with real-time insights, we required a scalable and efficient database system. After dissecting multiple database structures, we enter a grueling trial and error process until finally achieving success with a one-to-many object mapping relation (OMR) between food suppliers and store traffic throughout the day. Additionally, this was our first time using the Google Maps Platform and its Geolocation API, which required a deep understanding of the relationships between localization APIs and other toolkits and how they would impact the scalability of our code.
+
 # Accomplishments that I'm proud of
 
 # What I learned
