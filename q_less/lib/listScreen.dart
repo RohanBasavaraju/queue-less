@@ -48,6 +48,12 @@ class MyAppState extends State<MyApp> {
           centerTitle: true,
         ),
         body: Container(
+          decoration: BoxDecoration(
+            image: DecorationImage(
+              image: AssetImage("lib/CalHacksBackground.PNG"),
+              fit: BoxFit.cover,
+            ),
+          ),
           child: Center(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
