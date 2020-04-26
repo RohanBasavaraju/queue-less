@@ -1,4 +1,4 @@
-# Wless
+# QLess
 
 QLess is a mobile app bringing you the shortest wait times for local restaurants, supermarkets, food banks, and more.
 
