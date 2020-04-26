@@ -50,7 +50,7 @@ class MyAppState extends State<MyApp> {
         body: Container(
           decoration: BoxDecoration(
             image: DecorationImage(
-              image: AssetImage("lib/CalHacksBackground.PNG"),
+              image: AssetImage("assets/images/CalHacksBackground.PNG"),
               fit: BoxFit.cover,
             ),
           ),

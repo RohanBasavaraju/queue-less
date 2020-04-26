@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:q_less/sections/BigImage.dart';
 import 'sections/TextSection.dart';
 
 class SplashScreen extends StatelessWidget{
