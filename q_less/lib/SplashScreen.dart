@@ -13,6 +13,7 @@ class SplashScreen extends StatelessWidget{
           mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
+            BigImage("assets/images/background.png"),
             TextSection(Colors.teal),
           ],
         )
