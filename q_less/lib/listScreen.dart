@@ -42,12 +42,18 @@ class MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Text("How Close Would You Prefer Your Store to be?",
+          title: Text("Proximity?",
             style: TextStyle(fontSize: 36.0, color: Colors.white,
                 fontWeight: FontWeight.bold),),
           centerTitle: true,
         ),
         body: Container(
+          decoration: BoxDecoration(
+            image: DecorationImage(
+              image: AssetImage("lib/CalHacksBackground.PNG"),
+              fit: BoxFit.cover,
+            ),
+          ),
           child: Center(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
