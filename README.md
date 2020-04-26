@@ -8,7 +8,7 @@ Our team was inspired to build QLess in light of the devastating conditions impo
 
 # How I built it
 
-On the front-end, ... .
+On the front-end, the QLess team leveraged Flutter to design a visually appealing user experience. By understanding step-by-step how potentials users will utilize QLess to meet their dietary needs, we mocked-up a user interface for end-to-end user engagement. This meant iterating repeatedly to test an entire suite of product layouts until deciding on a final design.
 
 On the back-end, the QLess team created a relation database using Python, SQL, and Google Cloud to maintain real-time access to local food suppliers and the foot traffic they experience throughout the day. We also built multiple RESTful APIs using Java and Dart to enable efficient database access and storage. To meet user needs, we developed a suite of utility functions using Google Maps and its Geolocation API that will connect users with personalized results in seconds. These functionalities include: detecting geographic location of the mobile device, searching nearby stores using user input, computing relative distance between the user and food-bearing facilities, and providing local recommendations optimized for time and safety.
 
