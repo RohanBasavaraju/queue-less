@@ -14,24 +14,29 @@ class SplashScreen extends StatelessWidget{
                 fontWeight: FontWeight.bold),),
           centerTitle: true,
         ),
-        body: Column(
+        body: Container(
           decoration: BoxDecoration(
             image: DecorationImage(
               image: AssetImage("assets/images/CalHacksBackground.PNG"),
               fit: BoxFit.cover,
               ),
             ),
-          mainAxisAlignment: MainAxisAlignment.start,
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            TextSection('Welcome to the QLess App', 'We help you find the shortest lines'),
-            RaisedButton(
-                child: Text('Go!'),
-                onPressed: (){
-                  Navigator.of(context).push(_createRoute(context));
-            },
+          child: Center(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.start,
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                BigImage('assets/images/market.jpg'),
+                TextSection('Welcome to the QLess App', 'We help you find the shortest lines'),
+                RaisedButton(
+                  child: Text('Go!'),
+                  onPressed: (){
+                    Navigator.of(context).push(_createRoute(context));
+                  },
+                )
+              ],
             )
-          ],
+          )
         )
     );
   }
