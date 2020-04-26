@@ -19,7 +19,11 @@ On the back-end, the QLess team created a relation database using Python, SQL, a
 
 # Challenges I ran into
 
-  #backend
+Overall:
+
+We had considered more than 10 ideas and finally consolidated to Queue-less. Also, we tried many different platforms of implementation before deciding on using Flutter, which allowed us to develop the interface with agility and quality.
+
+Backend: The challenge was to design a database structure for thsi purpose. We had several iterations and finally decided an one-to-many mapping for the grocery stores and the traffic of the store during each hour. Also, this is our first time using Google Maps API, and understanding the relationship between the given APIs and other toolkits, as well as applying them in the code, had let us spend great efforts on. 
   
   
 # Accomplishments that I'm proud of
