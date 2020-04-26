@@ -2,12 +2,17 @@ from db import db, Store, Traffic
 import geocoder
 import datetime
 import googlemaps
-# from googlemaps import convert
-# import json
+from googlemaps import convert
+import json
 
 def getCurrentLocation():
     currentLoc = geocoder.ip('me').latlng
-    return currentLoc
+    js = {
+             "lat" : currentLoc[0],
+             "lng" : currentLoc[1]
+         }
+    json_dump = json.dumps(js)
+    return convert.latlng(json_dump)
 
 api_key = ''
 
@@ -45,7 +50,7 @@ def calculateBestStoreToGo(currentLocation, nearbyStores):
 def calculateDistance(currentLocation, destination):
     gmaps = googlemaps.Client(key=api_key)
     dist_matrix = gmaps.distance_matrix(origins = currentLocation, destinations = destination)
-    return dis_matrix
+    return dist_matrix
 
 # Failed quick test
 # lo = getCurrentLocation()
