@@ -22,6 +22,8 @@ Back-end: To connect users with real-time insights, we required a scalable and e
 
 # Accomplishments that I'm proud of
 
+This was the first time any of us built an app from scratch, and it was a first hackathon experience for a few of us. Despite the initial frustrations, we were able to persevere through and complete an app that we are all very proud of. Some specific things we are happy about are learning how to use APIs, learning how to use Flutter, and integrating the front end and back end of the product well.
+
 # What I learned
 
 By going through the product development process, we learned how to design, build, test, and deploy Android applications for social impact. Additionally, we gained unique experience working between front-end and back-end while continuously keeping in mind user needs. Lastly, we developed a breadth of technical skills across different programming languages (Python, Java, Dart, SQL) for a diversity of software platforms (Android, Flutter, Google Cloud, Google Maps).
