@@ -57,7 +57,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Maps Sample App'),
+          title: Text('Local Grocery Stores'),
           backgroundColor: Colors.green[700],
         ),
         body: Stack(
