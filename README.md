@@ -19,11 +19,11 @@ On the back-end, the QLess team created a relation database using Python, SQL, a
 
 # Challenges I ran into
 
-Overall:
+Throughout the course of our project, we brainstormed over 10 unique ideas and, after evaluating the potential of each pitch to tackling the COVID-19 pandemic, we collectively believed in QLess as a feasible and effective solution. This led to executing our idea through the design and development of a prototype Android application positioned for customer success.
 
-We had considered more than 10 ideas and finally consolidated to Queue-less. Also, we tried many different platforms of implementation before deciding on using Flutter, which allowed us to develop the interface with agility and quality.
+Front-end: We scoured the web and ran dozens of trials across a diversity of platforms until ultimately deciding to use Flutter for our project demo. Flutter was the clear choice as it enabled us to develop QLess's user interface with agility and elegance without compromising the back-end functionality. As novice hackers using Flutter, we taught ourselves how to develop software applications using the Dart programming language. This furthered our knowledge of object-oriented design principles along with our knowledge of developing with the Android environment.
 
-Backend: The challenge was to design a database structure for thsi purpose. We had several iterations and finally decided an one-to-many mapping for the grocery stores and the traffic of the store during each hour. Also, this is our first time using Google Maps API, and understanding the relationship between the given APIs and other toolkits, as well as applying them in the code, had let us spend great efforts on. 
+Back-end: To connect users with real-time insights, we required a scalable and efficient database system. After dissecting multiple database structures, we enter a grueling trial and error process until finally achieving success with a one-to-many object mapping relation (OMR) between food suppliers and store traffic throughout the day. Additionally, this was our first time using the Google Maps Platform and its Geolocation API, which required a deep understanding of the relationships between localization APIs and other toolkits and how they would impact the scalability of our code. 
   
   
 # Accomplishments that I'm proud of
