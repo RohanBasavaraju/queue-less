@@ -24,6 +24,8 @@ Back-end: To connect users with real-time insights, we required a scalable and e
 
 # What I learned
 
+By going through the product development process, we learned how to design, build, test, and deploy Android applications for social impact. Additionally, we gained unique experience working between front-end and back-end while continuously keeping in mind user needs. Lastly, we developed a breadth of technical skills across different programming languages (Python, Java, Dart, SQL) for a diversity of software platforms (Android, Flutter, Google Cloud, Google Maps).
+
 # What's next for QLess
 
 After our initial proof of concept, QLess aspires to revolutionize the food analytics industry through four major avenues.
