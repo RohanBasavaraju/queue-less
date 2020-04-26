@@ -15,10 +15,15 @@ class SplashScreen extends StatelessWidget{
           centerTitle: true,
         ),
         body: Column(
+          decoration: BoxDecoration(
+            image: DecorationImage(
+              image: AssetImage("assets/images/CalHacksBackground.PNG"),
+              fit: BoxFit.cover,
+              ),
+            ),
           mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            BigImage("assets/images/market.jpg"),
             TextSection('Welcome to the QLess App', 'We help you find the shortest lines'),
             RaisedButton(
                 child: Text('Go!'),
