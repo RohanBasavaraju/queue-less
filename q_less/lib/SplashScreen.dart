@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:q_less/sections/BigImage.dart';
-import 'package:q_less/sections/ListState.dart';
+import 'ListPage.dart';
+import 'MapScreen.dart';
 import 'sections/TextSection.dart';
 
 class SplashScreen extends StatelessWidget{
@@ -85,13 +86,15 @@ Route _createRoute2(BuildContext context) {
 }
 
 Widget loadNextScreen(BuildContext context){
-  MyAppState appState = MyAppState();
+  ListPage appState = ListPage();
   appState.initState();
   return appState.build(context);
 }
 
 Widget loadNextScreen2(BuildContext context){
-  MyAppState appState = MyAppState();
-  appState.initState();
-  return appState.build(context);
+  MapScreen createState() => MapScreen();
+  return createState().build(context);
+
+  //MapScreen appState = MapScreen();
+  //return appState.build(context);
 }

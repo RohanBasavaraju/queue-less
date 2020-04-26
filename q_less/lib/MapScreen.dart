@@ -7,10 +7,10 @@ void main() => runApp(MyApp());
 
 class MyApp extends StatefulWidget {
   @override
-  _MyAppState createState() => _MyAppState();
+  MapScreen createState() => MapScreen();
 }
 
-class _MyAppState extends State<MyApp> {
+class MapScreen extends State<MyApp> {
   Completer<GoogleMapController> _controller = Completer();
 
   static const LatLng _center = const LatLng(45.521563, -122.677433);
