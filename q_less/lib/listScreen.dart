@@ -42,7 +42,7 @@ class MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Text("Proximity?",
+          title: Text("QLess?",
             style: TextStyle(fontSize: 36.0, color: Colors.white,
                 fontWeight: FontWeight.bold),),
           centerTitle: true,
@@ -59,7 +59,8 @@ class MyAppState extends State<MyApp> {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
-                  Text("Within: "),
+                  TextSection("Proximity Settings", "Within what range would you prefer the grocery stores to be?"),
+                  Text("Within: ", style: TextStyle(fontSize: 24.0, color: Colors.white,),),
                   DropdownButton(
                     value: _selectedDistance,
                     items: _dropDownMenuItems,
