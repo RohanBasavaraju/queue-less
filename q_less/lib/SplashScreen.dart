@@ -8,7 +8,10 @@ class SplashScreen extends StatelessWidget{
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('QLess'),
+          title: Text("QLess",
+            style: TextStyle(fontSize: 36.0, color: Colors.white,
+                fontWeight: FontWeight.bold),),
+          centerTitle: true,
         ),
         body: Column(
           mainAxisAlignment: MainAxisAlignment.start,
