@@ -14,8 +14,8 @@ class SplashScreen extends StatelessWidget{
           mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            BigImage("assets/images/background.png"),
-            TextSection(Colors.teal),
+            BigImage("assets/images/market.jpg"),
+            TextSection('Welcome to the QLess App', 'We help you find the shortest lines'),
           ],
         )
     );
