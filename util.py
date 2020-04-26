@@ -1,13 +1,15 @@
-import db, Store, Traffic
+from db import db, Store, Traffic
 import geocoder
 import datetime
 import googlemaps
+# from googlemaps import convert
+# import json
 
-def getCurrentLocation(self):
-    currentLoc = geocoder.ip('me')
+def getCurrentLocation():
+    currentLoc = geocoder.ip('me').latlng
     return currentLoc
 
-api_key = 'AIzaSyCCSSTJ_rZxxfuAEG8dl4SG_FXXnpkCTXs'
+api_key = ''
 
 def getNumPeopleInStore(location):
     hour = datetime.datetime.now().hour
@@ -22,7 +24,7 @@ def updateTraffic(storeId, hour, traffic):
 
 def getNearbyStores(store, currentLocation):
     gmaps = googlemaps.Client(key=api_key)
-    possibleStore = gmaps.places_nearby(location=currentLocation, radius = 100000, name = store)
+    possibleStore = gmaps.places_nearby(location=(currentLocation[0],currentLocation[1]), radius = 100000, name = store)
     storeCoord = []
     for ps in possibleStore:
         storeCoord.append(ps['result']['geometry'][location])
@@ -42,5 +44,16 @@ def calculateBestStoreToGo(currentLocation, nearbyStores):
 
 def calculateDistance(currentLocation, destination):
     gmaps = googlemaps.Client(key=api_key)
-    dist_matrix = gmaps.distance_matrix(origin = currentLocation, destinations = destination)
+    dist_matrix = gmaps.distance_matrix(origins = currentLocation, destinations = destination)
     return dis_matrix
+
+# Failed quick test
+# lo = getCurrentLocation()
+# print(lo)
+# js = {
+#         "lat" : lo[0],
+#         "lng" : lo[1]
+#     }
+# jso = json.dumps(js)
+# ll = calculateDistance(convert.latlng(jso), 'BestBuy')
+# print(ll[1][1])
