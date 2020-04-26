@@ -25,14 +25,12 @@ On the back-end, the QLess team created a relation database using Python, SQL, a
 
 # What's next for QLess
 
-After our initial proof of concept, QLess aspires to revolutionize the food analytics industry through five major avenues.
+After our initial proof of concept, QLess aspires to revolutionize the food analytics industry through four major avenues.
 
 First, QLess will make its services more accessible to communities around the world by partnering with more diverse businesses, governmental organizations, and nonprofits in the food sector. This will provide our users with a greater variety of choices for meeting nutritional needs, especially in highly populated regions with increased risk of contracting COVID-19.
 
 Second, QLess seeks to create a food inventory management system to track food supply that is readily available on shelves and in back storage along with using predictive analytics to determine when the next shipment of product will be accessible to food suppliers.
 
-Third, QLess aims to optimize the user experience by allowing consumers to filter food locations by operating hours, customer feedback, coupons, discounts, etc. This would expand our current setup which simply filters for queue time and relative distance.
-
-Fourth, QLess plans to further personalize the user interface by employing artificial intelligence (AI) to better understand user preferences and dietary restrictions in conjunction with their present nutritional needs. This serves as a supplement to users by assisting them in determining which food products to purchase while minimizing time spent at the shop while obeying social distancing best practices. Additionally, we can use targeted machine learning by saving details from your positively-reviewed locations and making recommendations to potential top picks for your next shopping spree.
+Third, QLess plans to further personalize its user experience by employing artificial intelligence (AI) to better understand user preferences and dietary restrictions in conjunction with their present nutritional needs. This serves as a supplement to users by assisting them in determining which food products to purchase while minimizing time spent at the shop while obeying social distancing best practices. Additionally, we can use targeted machine learning by saving details from your positively-reviewed locations and making recommendations to potential top picks for your next shopping spree.
 
 Lastly, QLess looks to improve customer engagement by making the service digitally accessible to those in highly populated regions around the world. As such, we seek to expand our platform across Android, iOS, and web devices. We are currently prototyping our technology on the Android platform with the intent of product launch to users globally in the coming weeks. From here we can optimize our future endeavors on the iOS and web platforms for a comprehensive foodie experience.
